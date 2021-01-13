@@ -1,0 +1,25 @@
+insert into record(name,no,domno,tel,item,details,time,isrpd) 
+values ('
+sdr[1]
+','
+sdr[0]
+','
+sdr[3]
+','
+sdr[4]
+','
+textbox1.text
+','
+texbox2.text
+','
+DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
+',
+0
+);
+
+
+
+
+ DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
+
+SELECT * FROM T WHERE Convert(varchar,time,120) LIKE '2007-12-30%'
